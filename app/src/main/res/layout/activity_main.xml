@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.duangsang.junamon.ice_59junamon.MainActivity">
+    tools:context="ice_pbru.duangsang.junamon.ice_59junamon.MainActivity"
+    android:background="#b3aeae">
 
     <TextView
         android:layout_width="match_parent"
@@ -15,7 +16,8 @@
         android:text="New Text"
         android:id="@+id/textView"
         android:gravity="center_horizontal"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:background="#fad7d7" />
 
     <Button
         android:layout_width="match_parent"
@@ -23,7 +25,8 @@
         android:text="New Button"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:background="#f4cfcf" />
 
     <ListView
         android:layout_width="wrap_content"
@@ -35,5 +38,6 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_marginRight="5dp"
-        android:layout_margin="20dp" />
+        android:layout_margin="20dp"
+        android:background="#fee9fc" />
 </RelativeLayout>
